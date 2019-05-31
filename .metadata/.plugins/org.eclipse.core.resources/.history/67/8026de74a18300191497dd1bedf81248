@@ -1,0 +1,7 @@
+package dev.sgp.web;
+
+import javax.servlet.http.HttpServlet;
+
+public class ListerCollaborateursController extends HttpServlet {
+
+}

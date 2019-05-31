@@ -1,0 +1,24 @@
+package dev.sgp.web;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class EditerCollaborateurController extends HttpServlet {
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String matriculeParam = req.getParameter("matricule");
+		if(matriculeParam == null) {
+			resp.sendError(400, "Un matricule est attendu");
+		} else {
+			String html = "<h1>Edition de collaborateur</h1>"
+					+ "<p>Matricule : " + matriculeParam + "</p>";
+			resp.sendRedirect(html);
+		}
+	}
+
+}

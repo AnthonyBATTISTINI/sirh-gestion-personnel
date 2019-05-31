@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.Server"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.ServerConnector"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.Connector"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.servlet.ServletContextHandler"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="fr.jetty.servlet.HelloServlet"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.handler.HandlerCollection"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.Handler"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.server.handler.DefaultHandler"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>
